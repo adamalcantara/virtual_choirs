@@ -10,16 +10,60 @@
     font-size: 30px;
     width: 50%;
     margin: 60px auto;
+    line-height: 1.2;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
 }
 
 #bio {
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 1.6;
+    text-align: justify;
+    font-weight: 400;
 }
 
 #headshot {
-    width: 450px;
-    height: 100%;
-    margin-left: 40px;
+    float: left;
+    width: 350px;
+    height: 350px;
+    margin-right: 30px;
+}
+
+br {
+content: "";
+  margin: 3em;
+  display: inline-block;
+  font-size: 24%;
+}
+
+@media screen and (max-width: 1500px){
+    #headingtext {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    /* #biography {
+        display: flex;
+        flex-direction: column;
+    } */
+    #bio {
+        font-size: 20px;
+    }
+    br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px){
+    #headshot {
+        margin: 0 auto;
+    }
+    #biography {
+        display: flex;
+        flex-direction: column;
+    }
 }
