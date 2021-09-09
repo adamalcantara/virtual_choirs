@@ -68,4 +68,7 @@ content: "";
         display: flex;
         flex-direction: column;
     }
+    #headingtext {
+        font-size: 20px;
+    }
 }
