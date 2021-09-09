@@ -1,9 +1,11 @@
 #navigation {
     display: flex;
+    margin-top: 35px;
+    align-items: center;
 }
 
 #logo {
-    width: 500px;
+    width: 450px;
     height: auto;
 
 }
@@ -17,9 +19,15 @@
 .navlinks {
     text-decoration: none;
     color: white;
-    font-weight: 500;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 50px;
-    margin: auto 30px;
+    margin: auto 20px;
+}
+
+.navlinks:hover {
+    color: rgb(174, 174, 174);
+    text-decoration: underline;
 }
 
 #burger {
