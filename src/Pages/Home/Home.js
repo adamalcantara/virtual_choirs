@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Home.css"
+import About from "../../Components/About/About"
 
 const Home = () => {
     return (
@@ -10,7 +11,9 @@ const Home = () => {
                 <h2>Please take a look at our work below.</h2>
                 </div>
             </div>
-            <div id="about" className="section"></div>
+            <div id="about">
+                <About />
+            </div>
             <div id="media" className="section"></div>
             {/* <div id="medialink" className="section"></div> */}
             <div id="contact" className="section"></div>

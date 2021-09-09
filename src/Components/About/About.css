@@ -1,0 +1,25 @@
+#aboutsection {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#headingtext {
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+    margin: 60px auto;
+}
+
+#bio {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+#headshot {
+    width: 450px;
+    height: 100%;
+    margin-left: 40px;
+}
