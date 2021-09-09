@@ -24,7 +24,12 @@ class Navbar extends Component {
                         <div id="line3" className={this.state.clicked ? 'line3click' : ''}></div>
                     </div>
                 </div>
-                
+                <div className={this.state.clicked ? 'navbar active' : 'navbar'}>
+                    <Link to="/" className="navlinks" onClick={this.handleClick}>Home</Link>
+                    <HashLink to="/#about" className="navlinks" onClick={this.handleClick}>About</HashLink>
+                    <HashLink to="/#media" className="navlinks" onClick={this.handleClick}>Media</HashLink>
+                    <HashLink to="/#contact" className="navlinks" onClick={this.handleClick}>Contact</HashLink>
+                </div>
             </div>
         )
     }

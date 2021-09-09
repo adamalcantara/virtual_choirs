@@ -8,6 +8,20 @@
 
 }
 
+.navbar {
+    position: absolute;
+    right: 15px;
+    float: right;
+}
+
+.navlinks {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+    margin: auto 30px;
+}
+
 #burger {
     display: none;
     cursor: pointer;
