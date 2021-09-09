@@ -2,6 +2,8 @@ import React from 'react'
 import "./Home.css"
 import About from "../../Components/About/About"
 import Portfolio from '../../Components/Portfolio/Portfolio'
+import ContactForm from "../../Components/ContactForm/ContactForm"
+import Footer from "../../Components/Footer/Footer"
 
 const Home = () => {
     return (
@@ -20,7 +22,10 @@ const Home = () => {
             </div>
             
             {/* <div id="medialink" className="section"></div> */}
-            <div id="contact" className="section"></div>
+            <div id="contact" className="section">
+                <ContactForm />
+            </div>
+            <Footer />
         </div>
     )
 }
