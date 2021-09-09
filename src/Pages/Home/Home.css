@@ -1,0 +1,31 @@
+#home {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#hero {
+    height: calc(100vh - 220px);
+    background-image: url("../../Assets/img/background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    text-align: center;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    #text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #text {
+        font-size: 15px;
+    }
+}
