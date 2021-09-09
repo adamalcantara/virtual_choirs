@@ -1,3 +1,13 @@
+#navigation {
+    display: flex;
+}
+
+#logo {
+    width: 500px;
+    height: auto;
+
+}
+
 #burger {
     display: none;
     cursor: pointer;

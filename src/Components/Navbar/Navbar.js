@@ -24,6 +24,7 @@ class Navbar extends Component {
                         <div id="line3" className={this.state.clicked ? 'line3click' : ''}></div>
                     </div>
                 </div>
+                
             </div>
         )
     }
