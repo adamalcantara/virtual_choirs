@@ -61,6 +61,8 @@ content: "";
 @media screen and (max-width: 750px){
     #headshot {
         margin: 0 auto;
+        width: 250px;
+        height: 250px;
     }
     #biography {
         display: flex;
