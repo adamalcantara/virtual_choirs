@@ -12,17 +12,17 @@ class Navbar extends Component {
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked })
     }
-    
+
     render(){
         return (
             <div id="navigation">
                 <div id="mobilenavigation">
                     <img id="logo" src={Logo} alt="Armada Virtual Choirs logo"></img>
-                    {/* <div id="burger" onClick={this.handleClick}>
+                    <div id="burger" onClick={this.handleClick}>
                         <div id="line1" className={this.state.clicked ? 'line1click' : ''}></div>
                         <div id="line2" className={this.state.clicked ? 'line2click' : ''}></div>
                         <div id="line3" className={this.state.clicked ? 'line3click' : ''}></div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         )
